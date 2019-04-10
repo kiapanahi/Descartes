@@ -1,2 +1,6 @@
 # output directory
 out/
+
+# npm
+node_modules/
+package-lock.json
