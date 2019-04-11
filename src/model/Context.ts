@@ -1,4 +1,4 @@
-export class Context {
+export abstract class Context {
 
     public plainText: string = '';
 
