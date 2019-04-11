@@ -9,6 +9,8 @@
   "author": "Kia Panahi Rad",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
     "chai": "^4.2.0",
     "mocha": "^6.1.2",
     "ts-node": "^8.0.3",
