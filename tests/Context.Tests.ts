@@ -3,20 +3,16 @@ import { Suite } from 'mocha';
 import { Context } from '../src/model/Context';
 import { CodeContext } from '../src/model/CodeContext';
 
-class TestContext extends Context {
-}
 
-describe("Context", () => {
+describe("Code Context", () => {
+
     it("should set plainText property", () => {
         const sampleText = "sample text";
-        var ctx = new TestContext();
+        var ctx = new CodeContext();
 
         ctx.plainText = sampleText;
         expect(ctx.plainText).to.be.equal(sampleText);
     });
-});
-
-describe("Code Context", () => {
 
     it("should be initialized with empty plain text", () => {
         let ctx = new CodeContext();
